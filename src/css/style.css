@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    
+}
+#header_index{
+  background-color: rgb(0, 64, 255);
+  color: white;
+}
+
+.nav_index section a{
+    color: white;
+}
