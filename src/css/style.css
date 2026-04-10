@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 a {
     text-decoration: none;
 
@@ -15,7 +11,27 @@ a {
     padding: 30px;
     justify-content: space-between;
     display: flex;
+    border-radius: 40px;
 
+}
+
+.header-about-me {
+    background-color: rgb(245, 245, 247);
+    color: rgb(0, 64, 255);
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    display: flex;
+    border-color: gray;
+    border-width: 2px;
+
+}
+
+#main-about-me {
+    background-color: rgb(0, 64, 255);
+    padding: 20px 20px;
+    text-align: left;
+    border-radius: 40px;
 }
 
 .nav_index section a {
@@ -43,15 +59,56 @@ a {
 }
 
 #p-main-index{
-    padding: 50px 60px;
+    padding: 20px 20px;
     text-align: left;
 }
 
 .text-box {
+    font-size: large;
     border: 2px rgb(0, 0, 0);
     display: flex;
     padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: rgb(227, 227, 227);
+    margin: 40px;
+    border-radius: 30px;
+    background-color: rgb(241, 241, 241);
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.main-index {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+#main-about-me {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+.img-index {
+    width: 60%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.div-img-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-index {
+    background-color: rgb(0, 64, 255);
+    color: white;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-about-me section a{
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    background-color: rgb(0, 64, 255);
+    display: flex;
 }
