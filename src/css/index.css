@@ -1,4 +1,3 @@
-
 a {
     text-decoration: none;
 
@@ -7,31 +6,26 @@ a {
 #header_index {
     background-color: rgb(0, 64, 255);
     color: white;
-    align-items: center;
     padding: 30px;
-    justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
     border-radius: 40px;
+    gap: 20px;
 
 }
 
-.header-about-me {
-    background-color: rgb(245, 245, 247);
-    color: rgb(0, 64, 255);
-    align-items: center;
-    padding: 30px;
-    justify-content: space-between;
-    display: flex;
-    border-color: gray;
-    border-width: 2px;
+@media (max-width: 600px) {
+    #header_index {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-}
-
-#main-about-me {
-    background-color: rgb(0, 64, 255);
-    padding: 20px 20px;
-    text-align: left;
-    border-radius: 40px;
 }
 
 .nav_index section a {
@@ -47,23 +41,23 @@ a {
 .nav_index {
     display: flex;
     flex-direction: row;
-    justify-content: right; 
+    justify-content: right;
     gap: 20px;
     list-style: none;
 
 }
 
-.nav_index section :hover{
+.nav_index section :hover {
     background-color: rgb(199, 199, 199);
-    
+
 }
 
-#p-main-index{
+#p-main-index {
     padding: 20px 20px;
     text-align: left;
 }
 
-#title-main-index{
+#title-main-index {
     color: rgb(0, 64, 255);
     width: 100%;
     height: 10px;
@@ -73,6 +67,7 @@ a {
     display: inline-block;
     font-size: 2rem;
 }
+
 .text-box {
     font-size: large;
     border: 2px rgb(0, 0, 0);
@@ -86,10 +81,10 @@ a {
 }
 
 #box1 {
-    border: 4px  rgb(215, 215, 215);
+    border: 4px rgb(215, 215, 215);
     flex-direction: column;
     align-items: center;
-    text-align: center ;
+    text-align: center;
     display: flex;
     padding: 20px;
     margin: 40px;
@@ -98,10 +93,10 @@ a {
 }
 
 #box2 {
-    border: 4px  rgb(215, 215, 215);
+    border: 4px rgb(215, 215, 215);
     flex-direction: column;
     align-items: center;
-    text-align: center ;
+    text-align: center;
     display: flex;
     padding: 20px;
     margin: 40px;
@@ -110,10 +105,10 @@ a {
 }
 
 #box3 {
-    border: 4px  rgb(215, 215, 215);
+    border: 4px rgb(215, 215, 215);
     flex-direction: column;
     align-items: center;
-    text-align: center ;
+    text-align: center;
     display: flex;
     padding: 20px;
     margin: 40px;
@@ -141,6 +136,7 @@ a {
     height: auto;
     border-radius: 30px;
 }
+
 .img1-div-index {
     display: flex;
     padding: 20px;
@@ -156,6 +152,7 @@ a {
     justify-content: center;
     max-width: 220px;
 }
+
 .img3-div-index {
     display: flex;
     padding: 20px;
@@ -170,23 +167,15 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 #footer-index {
     background-color: rgb(90, 90, 90);
     color: rgb(36, 36, 36);
     align-items: center;
     padding: 30px;
     justify-content: center;
-    display:flex;
+    display: flex;
     border-radius: 40px;
     width: 100%;
-    position: relative
-}
-
-.nav-about-me section a{
-    color: rgb(255, 255, 255);
-    padding: 10px 15px;
-    border-radius: 20px;
-    transition: 0.3s ease;
-    background-color: rgb(0, 64, 255);
-    display: flex;
+    position: relative;
 }

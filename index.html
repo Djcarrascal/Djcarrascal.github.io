@@ -1,17 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio David Carrascal</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="shortcut icon" href="/public/icons/icon_portfolio.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 
+    <link rel="stylesheet" href="./src/css/font-ubuntu.css">
 </head>
+
 <body>
-    <h1>Mi portafolio</h1>
-    <h2>Mi portafolio</h2>
-    <h3>Prueba</h3>
-    <h4>Prueba 2</h4>
+
+    <header id="header_index">
+        <h1 class="ubuntu-bold">David Carrascal - Portfolio</h1>
+
+        <nav class="ubuntu-regular nav_index">
+            <section><a href="./src/views/about_me.html">About me</a></section>
+            <section><a href="./src/views/projects.html">Projects</a></section>
+            <section><a href="./src/views/contacts.html">Contact</a></section>
+            <section><a href="./mascotas.html">Do you like pets?</a></section>
+        </nav>
+
+    </header>
+    <main class="ubuntu-regular main-index">
+        <section id="section1-index">
+            <div class="div-img-index">
+                <img class="img-index" src="./public/img/dcc/Img-index.webp" alt="David Carrascal">
+            </div>
+
+            <div class="text-box">
+                <h2 id="h1-index">¡Hola! Soy David, Desarrollador Web. </h2>
+                <p id="p-main-index">  
+
+                    Bienvenido a mi espacio digital. En este sitio, he condensado mi trayectoria, mi proceso creativo y
+                    las
+                    soluciones técnicas que he construido a lo largo de mi carrera. Más que un simple listado de
+                    trabajos,
+                    este portafolio es una ventana a mi forma de entender la web: funcional, estética y centrada en el
+                    usuario. <br><br>
+
+                    A medida que navegues por estas secciones, descubrirás no solo las herramientas que utilizo, sino el
+                    razonamiento detrás de cada línea de código y la pasión que pongo en transformar ideas complejas en
+                    experiencias digitales fluidas. <br><br>
+                    Te invito a explorar mi mundo y a conectar si crees que podemos
+                    construir algo increíble juntos. <br>
+                </p>
+            </div>
+        </section>
+        <section>
+            <div id="title-main-index">
+                <h1>Lo que he logrado.</h1>
+            </div>
+        </section>
+
+        <section id="section2-index">
+
+            <div id="box1">
+                <img class="img1-div-index" src="/public/img/dcc/istockphoto-1161199631-612x612.webp"
+                    alt="Imagen de experiencia">
+                <p>Cuento mas de 5 años de experiencia desarrolando soluciones a empresas locales e internacionales.</p>
+
+            </div>
+            <div id="box2">
+                <img class="img2-div-index" src="/public/img/dcc/Captura desde 2026-04-13 13-21-13.png"
+                    alt="Imagen de proyectos">
+                <p>A lo largo de mi trayectoria he trabajado en más de 100 proyectos para diversas empresas.</p>
+            </div>
+            <div id="box3">
+                <img class="img3-div-index" src="/public/img/dcc/mapofcolombia.webp" alt="Mapa de colombia">
+                <p>Reconocimiento a nivel nacional por el apoyo brindado las pymes en sus procesos de innovación.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="ubuntu-regular" id="footer-index">
+        <h3>Todos los derechos reservados.</h3>
+    </footer>
+
 </body>
+
 </html>
