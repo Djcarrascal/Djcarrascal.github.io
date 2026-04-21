@@ -1,0 +1,57 @@
+.img-pets {
+  display: grid; /* Activamos el modo rejilla */
+  
+  /* Esto crea 3 columnas de igual tamaño (1fr) */
+  grid-template-columns: repeat(3, 1fr); 
+  
+  gap: 20px; /* Espacio entre las tarjetas */
+  padding: 20px;
+}
+
+.img-1 {
+    display: flex;
+    padding: 20px;
+    border-radius: 40px;
+    justify-content: center;
+    max-width: 25%;
+}
+
+.img-2 {
+    display: flex;
+    padding: 20px;
+    border-radius: 40px;
+    justify-content: center;
+    max-width: 25%;
+}
+
+.img-3 {
+    display: flex;
+    padding: 20px;
+    border-radius: 40px;
+    justify-content: center;
+    max-width: 25%;
+}
+
+.img-4 {
+    display: flex;
+    padding: 20px;
+    border-radius: 40px;
+    justify-content: center;
+    max-width: 25%;
+}
+
+.img-5 {
+    display: flex;
+    padding: 20px;
+    border-radius: 40px;
+    justify-content: center;
+    max-width: 25%;
+}
+
+.img-6 {
+    display: flex;
+    padding: 20px;
+    border-radius: 40px;
+    justify-content: center;
+    max-width: 25%;
+}
