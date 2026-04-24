@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+
+
+#header-projects{
+    background-color: rgb(23, 19, 58);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    display: flex;
+    border-color: gray;
+    border-width: 2px;
+
+}
+
+#main-projects {
+    background-color: rgb(23, 19, 58);
+    color: white;
+    padding: 20px 20px;
+    text-align: left;
+
+}
+
+.nav-about-me section a{
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    background-color: rgb(71, 0, 118);
+    display: flex;
+}
+
+.nav-about-me section a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(106, 52, 142);
+}
+
+#footer-projects {
+    background-color: rgb(65, 23, 98);
+    color: rgba(255, 255, 255, 0.347);
+    padding: 20px;
+    text-align: center;
+}
