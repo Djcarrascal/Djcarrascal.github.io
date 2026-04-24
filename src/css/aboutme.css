@@ -48,7 +48,21 @@ a {
     color: rgb(106, 52, 142);
 }
 
-.text-box,
+.text-box{
+    background-color: rgba(174, 75, 255, 0.132);
+    color: rgb(147, 139, 155);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-about {
+    border-radius: 16px;
+}
+
 .img-about-me {
     background-color: rgba(174, 75, 255, 0.434);
     color: rgb(147, 139, 155);

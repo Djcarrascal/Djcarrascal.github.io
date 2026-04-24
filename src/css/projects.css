@@ -31,6 +31,38 @@ a {
     text-align: left;
 
 }
+.section-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 250px;
+    border-radius: 15px;
+}
+
+#img1,
+#img2,
+#img3 {
+    font-size: 1rem;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 30px;
+    background-color: rgba(241, 241, 241, 0.055);
+    box-sizing: border-box;
+    color: rgb(111, 106, 116);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
 
 .nav-about-me section a{
     color: rgb(255, 255, 255);
