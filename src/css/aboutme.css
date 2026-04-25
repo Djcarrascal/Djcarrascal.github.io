@@ -1,3 +1,9 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 
 a {
     text-decoration: none;
@@ -5,21 +11,10 @@ a {
 }
 
 
-.header-about-me {
-    background-color: rgb(245, 245, 247);
-    color: rgb(0, 64, 255);
-    align-items: center;
-    padding: 30px;
-    justify-content: space-between;
-    display: flex;
-    border-color: gray;
-    border-width: 2px;
-
-}
 
 .header-about-me {
-    background-color: rgb(245, 245, 247);
-    color: rgb(0, 64, 255);
+    background-color: rgb(23, 19, 58);
+    color: rgb(255, 255, 255);
     align-items: center;
     padding: 30px;
     justify-content: space-between;
@@ -30,18 +25,110 @@ a {
 }
 
 #main-about-me {
-    background-color: rgb(0, 64, 255);
+    background-color: rgb(23, 19, 58);
     color: white;
     padding: 20px 20px;
     text-align: left;
-    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.nav-about-me section a{
+.nav-about-me section a {
     color: rgb(255, 255, 255);
     padding: 10px 15px;
     border-radius: 20px;
     transition: 0.3s ease;
-    background-color: rgb(0, 64, 255);
+    background-color: rgb(71, 0, 118);
     display: flex;
+}
+
+.nav-about-me section a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(106, 52, 142);
+}
+
+.text-box{
+    background-color: rgba(174, 75, 255, 0.132);
+    color: rgb(147, 139, 155);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-about {
+    border-radius: 16px;
+    opacity: 0.8;
+}
+
+.img-about-me {
+    background-color: rgba(174, 75, 255, 0.434);
+    color: rgb(147, 139, 155);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.title-languaje {
+    color: rgb(174, 75, 255);
+    text-align: center;
+    margin: 30px;
+    font-size: 45px;
+}
+
+.img-type-leng {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+
+.section-lang {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 250px;
+    height: 250px;
+}
+
+#img1,
+#img2,
+#img3 {
+    font-size: 1rem;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 30px;
+    background-color: rgba(241, 241, 241, 0.055);
+    box-sizing: border-box;
+    color: rgb(111, 106, 116);
+
+}
+
+
+#box1,
+#box2,
+#box3 {
+    background-color: rgba(241, 241, 241, 0.055);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#footer-about-me {
+    background-color: rgb(65, 23, 98);
+    color: rgba(255, 255, 255, 0.347);
+    padding: 20px;
+    text-align: center;
 }

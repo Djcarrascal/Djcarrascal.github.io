@@ -1,6 +1,6 @@
 /* --- ESTILOS GENERALES --- */
 
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -18,8 +18,8 @@ body {
 
 /* --- HEADER --- */
 #header_index {
-    background-color: rgb(0, 64, 255);
-    color: white;
+    background-color: rgb(23, 19, 58);
+    color: rgb(174, 75, 255);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -32,6 +32,10 @@ body {
     gap: 20px;
 }
 
+.main-index {
+    background-color: rgb(23, 19, 58);
+    ;
+}
 
 .nav_index {
     display: flex;
@@ -41,14 +45,22 @@ body {
     gap: 10px;
     list-style: none;
     padding: 0;
+
+}
+
+.nav_index section :hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(106, 52, 142);
+
 }
 
 .nav_index section a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 8px 12px;
     border-radius: 15px;
+    border-color: white;
     transition: 0.3s ease;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(71, 0, 118);
     font-size: 0.9rem;
 }
 
@@ -59,8 +71,29 @@ body {
     display: flex;
     flex-direction: column;
     /* Apilado en móvil */
-    align-items: center;
+    align-items: center¿;
     width: 100%;
+}
+
+.profile-text {
+    color: white;
+    text-align: left;
+    margin: 30px;
+    padding-left: 0px;
+}
+
+#hello-center-text {
+    font-size: 25px;
+}
+
+.center-text {
+    font-size: 40px;
+}
+
+#p-center-text {
+    color: rgb(174, 75, 255);
+    text-align: left;
+
 }
 
 .text-box,
@@ -72,14 +105,15 @@ body {
     margin: 15px;
     /* Margen reducido en móvil */
     border-radius: 30px;
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(241, 241, 241, 0.055);
     box-sizing: border-box;
+    color: rgb(111, 106, 116);
 }
 
 #box1,
 #box2,
 #box3 {
-    background-color: rgba(241, 241, 241, 0.5);
+    background-color: rgba(241, 241, 241, 0.055);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,18 +121,6 @@ body {
 }
 
 /* --- IMÁGENES --- */
-.img-index {
-    width: 100%;
-    /* Más grande en móvil */
-    max-width: 300px;
-    height: auto;
-    border-radius: 30px;
-    margin-top: 20px;
-    align-content: center;
-    justify-content: center;
-    align-content: center;
-}
-
 .img1-div-index,
 .img2-div-index,
 .img3-div-index {
@@ -110,7 +132,7 @@ body {
 
 /* --- TÍTULOS --- */
 #title-main-index {
-    color: rgb(0, 64, 255);
+    color: rgb(174, 75, 255);
     text-align: center;
     margin: 30px 0;
     font-size: 1.5rem;
@@ -118,12 +140,10 @@ body {
 
 /* --- FOOTER --- */
 #footer-index {
-    background-color: rgb(90, 90, 90);
-    color: white;
+    background-color: rgb(65, 23, 98);
+    color: rgba(255, 255, 255, 0.347);
     padding: 20px;
     text-align: center;
-    border-radius: 40px 40px 0 0;
-    margin-top: 20px;
 }
 
 /* --- MEDIA QUERY: PANTALLAS GRANDES (PC) --- */
@@ -136,6 +156,7 @@ body {
         border-radius: 0px;
     }
 
+
     .nav_index {
         justify-content: flex-end;
     }
@@ -146,6 +167,7 @@ body {
         /* Dos columnas */
         align-items: center;
         padding: 40px;
+        padding-top: 90px;
     }
 
     #section2-index {
@@ -158,15 +180,41 @@ body {
     .text-box {
         margin: 40px;
         font-size: large;
-        margin-right: 100px;
+        margin-right: 25px;
     }
 
     #title-main-index {
         font-size: 2rem;
     }
+
     .div-img-index {
         display: flex;
         height: 50%;
         justify-content: center;
     }
-}
+
+    .center-text {
+        font-size: 100px
+    }
+
+    #hello-center-text {
+        font-size: 30px;
+    }
+    #p-center-text {
+        font-size: 25px;
+    }
+    .profile-text {
+        color: white;
+        text-align: left;
+        margin: 20px;
+        padding-left: 80px;
+
+    }
+
+    .center-text {
+        text-align: left;
+    }
+
+    #hello-center-text {
+        text-align: left;
+    }}
